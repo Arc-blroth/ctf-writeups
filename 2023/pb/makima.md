@@ -240,7 +240,7 @@ imagedestroy($img);
 
 At this point my team decided to go to dinner together, where we enjoyed the fine Italian cuisine at Epicuria (at Covel (at UCLA)).
 
-<details open>
+<details>
 <summary>Most Cooked Fish at Epic</summary>
 <img src="../../resources/e5accf5387ff4494838c8d896db69cfd.jpg" />
 </details>
