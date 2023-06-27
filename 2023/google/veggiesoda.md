@@ -29,7 +29,7 @@ The singular soda we already own contains a welcome note from admin.
 
 ![74d85a8fe53cc058d4d8375b9070c628.png](../../resources/eab89318a41d432193570509ee3c8124.png)	
 
-Cracking open the source code, we're met with an application built with Deno (obligatory ð¦) and the [Oak](https://deno.land/x/oak) framework. A quick `grep -r "flag"` reveals absolutely nothing, so let's just go through the file list top-to-bottom:
+Cracking open the source code, we're met with an application built with Deno (obligatory 🦕) and the [Oak](https://deno.land/x/oak) framework. A quick `grep -r "flag"` reveals absolutely nothing, so let's just go through the file list top-to-bottom:
 
 - `src/db/index.js` is, as the filename suggests, Veggie Soda's database wrapper. All of the queries use standard SQL placeholder syntax, so no SQL injections here! Interesting things to note in this module though are the admin initialization lines
 	```ts
@@ -563,7 +563,7 @@ Despite the fact CORS technically fails client-side, the server still processes 
 
 Now that we have all the pieces, all that's left are to put them together! (And to also fix all the bugs in my payload such as missing `\\`s, whoops). 
 
-After repeating the above deployment sites for the third time on the actual challenge instance, my webhook _finally_ receiving payloads such as
+After repeating the above deployment sites for the third time on the actual challenge instance, my webhook _finally_ started receiving payloads such as
 ![604e199796658c961c615282f4130f6a.png](../../resources/598c8ef862e04b5988f592b59227e2b6.png)
 
 There's just one problem left.
