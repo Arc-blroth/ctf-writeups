@@ -1,3 +1,9 @@
+---
+title: "Land of the Lustrous | HitconCTF 2024"
+description: "Rock, paper, ethereum?"
+date: "2024-07-14"
+---
+
 #### HitconCTF2024/web3
 # Land of the Lustrous
 by Arc'blroth

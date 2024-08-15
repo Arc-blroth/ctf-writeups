@@ -1,3 +1,9 @@
+---
+title: "The Triple Blockchain Writeup | X-MAS CTF 2022"
+description: "A few Solidity smart contract vulnerabilities and information about Ethereum internals leading to a set of flags!"
+date: "2022-12-23"
+---
+
 #### x-mas2022/blockchain/*
 # The Triple Blockchain Writeup
 by Arc'blroth

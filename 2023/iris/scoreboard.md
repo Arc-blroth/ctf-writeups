@@ -1,3 +1,9 @@
+---
+title: "Scoreboard Website Easter Egg | IrisCTF 2023"
+description: "There's an imposter among us on the scoreboard..."
+date: "2023-01-08"
+---
+
 #### irisctf2023/rev
 # Scoreboard Website Easter Egg
 by Arc'blroth

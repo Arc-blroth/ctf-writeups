@@ -1,3 +1,9 @@
+---
+title: "Letters | justCTF 2024 [teaser]"
+description: "how to find a unintended 0day"
+date: "2024-06-17"
+---
+
 #### justctf\[teaser\]2024/web
 # Letters, or how to find a unintended 0day
 by Arc'blroth

@@ -1,3 +1,9 @@
+---
+title: "Prisoner Process | DownUnderCTF 2024"
+description: "i hate bun i hate bun i hate bun"
+date: "2024-07-08"
+---
+
 #### DownUnderCTF2024/web
 # Prisoner Process
 by Arc'blroth ft. Aplet123

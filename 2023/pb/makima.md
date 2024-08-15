@@ -1,3 +1,9 @@
+---
+title: "Makima | pbctf 2023"
+description: "Applied steganography ft. raw fish from Epic"
+date: "2023-02-20"
+---
+
 #### pbctf2023/web
 # Makima
 by Arc'blroth

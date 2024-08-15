@@ -1,4 +1,10 @@
-#### SquareCTF/web/500
+---
+title: "Developer's Hubris | Square CTF 2022"
+description: "A Java Spring boot deserialization vulnerability that leads to RCE!"
+date: "2022-12-21"
+---
+
+#### SquareCTF2022/web/500
 # Developer's Hubris
 by Arc'blroth
 

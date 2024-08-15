@@ -1,3 +1,9 @@
+---
+title: "Veggie Soda | Google CTF 2023"
+description: "Rabbits, Denosaurs, and misinterpreted sodas brew a wonderful XSS!"
+date: "2023-07-21"
+---
+
 #### googlectf2023/web
 # Veggie Soda
 by Arc'blroth
