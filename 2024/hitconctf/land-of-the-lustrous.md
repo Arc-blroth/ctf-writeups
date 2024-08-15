@@ -284,7 +284,7 @@ Compiling with `vyper land_of_the_lustrous.py -f ir` gives us a sexpr-style IR f
 
 The second `mstore` thus will overwrite slots `276..308`. If we build a terrible regex and look through the rest of the IR, the only slot that could be clobbered in that region is slot 256 + 32 = `288`.
 
-<details><summary>arc's terrible regex skills</summary><code>m(load|store)\W+?(276|277|278|279|280|281|282|283|284|285|286|287|288|289|290|291|292|293|294|295|296|297|298|299|300|301|302|303|304|305|306|307)<
+<details><summary>arc's terrible regex skills</summary><code>m(load|store)\W+?(276|277|278|279|280|281|282|283|284|285|286|287|288|289|290|291|292|293|294|295|296|297|298|299|300|301|302|303|304|305|306|307)&lt;
 </code></details><br>
 
 Two variables are stored in slot 288 throughout the program: `lunarian_actions.length` in `battle` and `gem1.health` in `merge`. Given all of the checks around `len(lunarian_actions)`, clobbering the former would probably just panic the program. But clobbering the second... might give us a chance to win battle.
